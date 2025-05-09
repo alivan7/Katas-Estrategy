@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818a2a51-182e-4b67-9b96-bede185db07f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata4_Refactorized/HumidityReadable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata4_Refactorized/HumiditySensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata4_Refactorized/PressureReadable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata4_Refactorized/PressureSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata4_Refactorized/TemperatureReadable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata4_Refactorized/TemperatureSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/kata4/Sensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/kata4/TemperatureSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HumiditySensorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PressureSensorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TemperatureSensorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5/SmartDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5/SmartLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/MusicPlayable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/PowerControllable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/SmartLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/SmartSpeaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/WiFiConnectable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SmartLightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SmartSpeakerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +87,7 @@
       <module name="katas-Al_Ivan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Kata5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,7 +103,7 @@
       <module name="katas-Al_Ivan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Kata5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,7 +119,7 @@
       <module name="katas-Al_Ivan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Kata5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,7 +135,7 @@
       <module name="katas-Al_Ivan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Kata5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,7 +151,7 @@
       <module name="katas-Al_Ivan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Kata5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746808249679</updated>
       <workItem from="1746808250814" duration="4000" />
-      <workItem from="1746808591557" duration="4714000" />
+      <workItem from="1746808591557" duration="5855000" />
     </task>
     <servers />
   </component>
