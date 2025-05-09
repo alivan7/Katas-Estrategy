@@ -5,35 +5,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818a2a51-182e-4b67-9b96-bede185db07f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Swimmable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BirdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2wrmpQ3rqBHy7vsTV4GSFRF5xjC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BirdTest.testBirdCanFlyAndRun.executor": "Run",
+    "Maven.katas-Al_Ivan [clean].executor": "Run",
+    "Maven.katas-Al_Ivan [install].executor": "Run",
+    "Maven.katas-Al_Ivan [package].executor": "Run",
+    "Maven.katas-Al_Ivan [test].executor": "Run",
+    "Maven.katas-Al_Ivan [validate].executor": "Run",
+    "Maven.katas-Al_Ivan [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aliva\OneDrive\Documentos\Katas_AL_Ivan\src\main\java\test" />
+      <recent name="C:\Users\aliva\OneDrive\Documentos\Katas_AL_Ivan\src\main\test\java" />
+      <recent name="C:\Users\aliva\OneDrive\Documentos\Katas_AL_Ivan\src\main\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BirdTest.testBirdCanFlyAndRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="katas-Al_Ivan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BirdTest" />
+      <option name="METHOD_NAME" value="testBirdCanFlyAndRun" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Katas_AL_Ivan" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Katas_AL_Ivan" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BirdTest.testBirdCanFlyAndRun" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746808249679</updated>
       <workItem from="1746808250814" duration="4000" />
+      <workItem from="1746808591557" duration="2850000" />
     </task>
     <servers />
   </component>
