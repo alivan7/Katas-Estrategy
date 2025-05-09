@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818a2a51-182e-4b67-9b96-bede185db07f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5/SmartDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5/SmartLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/MusicPlayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/PowerControllable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/SmartLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/SmartSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata5_Refactorized/WiFiConnectable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SmartLightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SmartSpeakerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata6/CreditCardProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata6/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata6_Refactorized/CreditCardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata6_Refactorized/CreditCardProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata6_Refactorized/CryptoPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata6_Refactorized/CryptoProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata6_Refactorized/PayPalPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata6_Refactorized/PayPalProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CreditCardProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CryptoProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PayPalProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +84,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PressureSensorTest.testReadPressure">
+  <component name="RunManager" selected="JUnit.CryptoProcessorTest.testCryptoPayment">
     <configuration name="BasicPrinterTest.testPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katas-Al_Ivan" />
       <extension name="coverage">
@@ -94,22 +96,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.BasicPrinterTest" />
       <option name="METHOD_NAME" value="testPrint" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BirdTest.testBirdCanFlyAndRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="katas-Al_Ivan" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Kata5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.BirdTest" />
-      <option name="METHOD_NAME" value="testBirdCanFlyAndRun" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,6 +133,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CryptoProcessorTest.testCryptoPayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="katas-Al_Ivan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CryptoProcessorTest" />
+      <option name="METHOD_NAME" value="testCryptoPayment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PressureSensorTest.testReadPressure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katas-Al_Ivan" />
       <extension name="coverage">
@@ -178,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CryptoProcessorTest.testCryptoPayment" />
         <item itemvalue="JUnit.PressureSensorTest.testReadPressure" />
         <item itemvalue="JUnit.BoatTest.testBoatSail" />
         <item itemvalue="JUnit.CarTest.testCarDrive" />
         <item itemvalue="JUnit.BasicPrinterTest.testPrint" />
-        <item itemvalue="JUnit.BirdTest.testBirdCanFlyAndRun" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746808249679</updated>
       <workItem from="1746808250814" duration="4000" />
-      <workItem from="1746808591557" duration="5855000" />
+      <workItem from="1746808591557" duration="6423000" />
     </task>
     <servers />
   </component>
