@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818a2a51-182e-4b67-9b96-bede185db07f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1_Refactorized/Swimmable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BirdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata2/BasicPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata2/LegacyPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata2_Refactorized/BasicPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata2_Refactorized/Faxable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata2_Refactorized/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata2_Refactorized/Scannable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BasicPrinterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BasicPrinterTest.testPrint.executor": "Run",
     "JUnit.BirdTest.testBirdCanFlyAndRun.executor": "Run",
     "Maven.katas-Al_Ivan [clean].executor": "Run",
     "Maven.katas-Al_Ivan [install].executor": "Run",
@@ -80,7 +77,23 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BasicPrinterTest.testPrint">
+    <configuration name="BasicPrinterTest.testPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="katas-Al_Ivan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BasicPrinterTest" />
+      <option name="METHOD_NAME" value="testPrint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BirdTest.testBirdCanFlyAndRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katas-Al_Ivan" />
       <extension name="coverage">
@@ -112,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicPrinterTest.testPrint" />
         <item itemvalue="JUnit.BirdTest.testBirdCanFlyAndRun" />
       </list>
     </recent_temporary>
@@ -125,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746808249679</updated>
       <workItem from="1746808250814" duration="4000" />
-      <workItem from="1746808591557" duration="2850000" />
+      <workItem from="1746808591557" duration="3357000" />
     </task>
     <servers />
   </component>
