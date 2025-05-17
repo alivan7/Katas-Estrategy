@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818a2a51-182e-4b67-9b96-bede185db07f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Squeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/ModelDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kata1/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kata1/QuakBehavior.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BasicPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BasicPrinterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +204,7 @@
       <workItem from="1747444289905" duration="1053000" />
       <workItem from="1747486572463" duration="1418000" />
       <workItem from="1747488137134" duration="49000" />
-      <workItem from="1747488822304" duration="158000" />
+      <workItem from="1747488822304" duration="829000" />
     </task>
     <servers />
   </component>
