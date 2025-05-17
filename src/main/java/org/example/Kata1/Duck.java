@@ -1,9 +1,23 @@
 package org.example.Kata1;
 
-public class Duck {
-    QuakBehavior quakBehavior;
+public abstract class Duck {
+    QuackBehavior quackBehavior;
+    FlyBehavior flyBehavior;
+
+    public Duck() {
+    }
+
+    public abstract void display();
 
     public void performQuak() {
-        quakBehavior.quack();
+        quackBehavior.quack();
+    }
+
+    public void performFly() {
+        flyBehavior.fly();
+    }
+
+    public void swim() {
+        System.out.println("All ducks float, even decoys!");
     }
 }

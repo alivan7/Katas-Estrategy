@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818a2a51-182e-4b67-9b96-bede185db07f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/QuakBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Squeak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kata1/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kata1/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kata1/QuakBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BasicPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BasicPrinterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,34 +48,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.BasicPrinterTest.testPrint.executor": "Run",
-    "JUnit.BirdTest.testBirdCanFlyAndRun.executor": "Run",
-    "JUnit.BoatTest.testBoatSail.executor": "Run",
-    "JUnit.CarTest.testCarDrive.executor": "Run",
-    "JUnit.PressureSensorTest.testReadPressure.executor": "Run",
-    "Maven.katas-Al_Ivan [clean].executor": "Run",
-    "Maven.katas-Al_Ivan [install].executor": "Run",
-    "Maven.katas-Al_Ivan [package].executor": "Run",
-    "Maven.katas-Al_Ivan [test].executor": "Run",
-    "Maven.katas-Al_Ivan [validate].executor": "Run",
-    "Maven.katas-Al_Ivan [verify].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aliva/OneDrive/Documentos/Katas_Estrategy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.BasicPrinterTest.testPrint.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BirdTest.testBirdCanFlyAndRun.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoatTest.testBoatSail.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CarTest.testCarDrive.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PressureSensorTest.testReadPressure.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.katas-Al_Ivan [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.katas-Al_Ivan [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.katas-Al_Ivan [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.katas-Al_Ivan [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.katas-Al_Ivan [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.katas-Al_Ivan [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aliva/OneDrive/Documentos/Katas_Estrategy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aliva\OneDrive\Documentos\Katas_AL_Ivan\src\main\java\test" />
@@ -79,7 +86,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CryptoProcessorTest.testCryptoPayment">
+  <component name="RunManager" selected="JUnit.BasicPrinterTest.testPrint">
     <configuration name="BasicPrinterTest.testPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="katas-Al_Ivan" />
       <extension name="coverage">
@@ -175,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicPrinterTest.testPrint" />
         <item itemvalue="JUnit.CryptoProcessorTest.testCryptoPayment" />
         <item itemvalue="JUnit.PressureSensorTest.testReadPressure" />
         <item itemvalue="JUnit.BoatTest.testBoatSail" />
         <item itemvalue="JUnit.CarTest.testCarDrive" />
-        <item itemvalue="JUnit.BasicPrinterTest.testPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +208,10 @@
       <updated>1746808249679</updated>
       <workItem from="1746808250814" duration="4000" />
       <workItem from="1746808591557" duration="6423000" />
-      <workItem from="1747444289905" duration="447000" />
+      <workItem from="1747444289905" duration="1053000" />
+      <workItem from="1747486572463" duration="1418000" />
+      <workItem from="1747488137134" duration="49000" />
+      <workItem from="1747488822304" duration="158000" />
     </task>
     <servers />
   </component>
